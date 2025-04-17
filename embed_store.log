@@ -1,0 +1,42 @@
+2025-03-16 16:48:27,648 - INFO - Script started: embed_store.py
+2025-03-16 16:48:33,385 - INFO - Successfully loaded JSON file: data/RAG data/���� ���ĺ��̽�/��������/��������_�����Ƿ�(Json)/nia_law_ontology_�Ƿ�_20180117.json
+2025-03-16 16:48:33,385 - INFO - Fields of interest: ['http://www.aihub.or.kr/kb/law/caseNumber', 'http://www.aihub.or.kr/kb/law/caseName', 'http://www.aihub.or.kr/kb/law/caseType', 'http://www.aihub.or.kr/kb/law/courtName', 'http://www.aihub.or.kr/kb/law/sentenceDate', 'http://www.aihub.or.kr/kb/law/judgementAbstract', 'http://www.aihub.or.kr/kb/law/precedentText', 'http://www.aihub.or.kr/kb/law/judgementNote']
+2025-03-16 16:48:34,147 - INFO - Extracted 77292 text chunks.
+2025-03-16 16:48:34,627 - INFO - Total chunks after splitting: 347976
+2025-03-16 17:10:51,777 - INFO - Script started: embed_store.py
+2025-03-16 17:10:57,552 - INFO - Successfully loaded JSON file: data/RAG data/���� ���ĺ��̽�/��������/��������_�����Ƿ�(Json)/nia_law_ontology_�Ƿ�_20180117.json
+2025-03-16 17:10:57,552 - INFO - Fields of interest: ['http://www.aihub.or.kr/kb/law/caseNumber', 'http://www.aihub.or.kr/kb/law/caseName', 'http://www.aihub.or.kr/kb/law/caseType', 'http://www.aihub.or.kr/kb/law/courtName', 'http://www.aihub.or.kr/kb/law/sentenceDate', 'http://www.aihub.or.kr/kb/law/judgementAbstract', 'http://www.aihub.or.kr/kb/law/precedentText', 'http://www.aihub.or.kr/kb/law/judgementNote']
+2025-03-16 17:10:58,310 - INFO - Extracted 77292 text chunks.
+2025-03-16 17:10:58,744 - INFO - Total chunks after splitting: 347976
+2025-03-16 17:24:08,261 - INFO - Successfully generated embeddings.
+2025-03-16 17:24:38,178 - INFO - HTTP Request: GET http://localhost:9000/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+2025-03-16 17:24:38,178 - ERROR - Failed to insert data into ChromaDB: Batch size 347976 exceeds maximum batch size 41666
+2025-03-16 20:45:22,378 - INFO - Script started: embed_store.py
+2025-03-16 20:45:28,005 - INFO - Successfully loaded JSON file: data/RAG data/���� ���ĺ��̽�/��������/��������_�����Ƿ�(Json)/nia_law_ontology_�Ƿ�_20180117.json
+2025-03-16 20:45:28,005 - INFO - Fields of interest: ['http://www.aihub.or.kr/kb/law/caseNumber', 'http://www.aihub.or.kr/kb/law/caseName', 'http://www.aihub.or.kr/kb/law/caseType', 'http://www.aihub.or.kr/kb/law/courtName', 'http://www.aihub.or.kr/kb/law/sentenceDate', 'http://www.aihub.or.kr/kb/law/judgementAbstract', 'http://www.aihub.or.kr/kb/law/precedentText', 'http://www.aihub.or.kr/kb/law/judgementNote']
+2025-03-16 20:45:28,839 - INFO - Extracted 77292 text chunks.
+2025-03-16 20:45:29,357 - INFO - Total chunks after splitting: 347976
+2025-03-16 20:58:34,974 - INFO - Successfully generated embeddings.
+2025-03-16 20:58:39,051 - INFO - HTTP Request: GET http://localhost:9000/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+2025-03-16 20:59:53,145 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 20:59:53,231 - INFO - Inserted batch 1: 41666 text chunks into ChromaDB.
+2025-03-16 21:01:23,467 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 21:01:23,574 - INFO - Inserted batch 2: 41666 text chunks into ChromaDB.
+2025-03-16 21:02:56,269 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 21:02:56,348 - INFO - Inserted batch 3: 41666 text chunks into ChromaDB.
+2025-03-16 21:04:37,331 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 21:04:37,415 - INFO - Inserted batch 4: 41666 text chunks into ChromaDB.
+2025-03-16 21:06:31,927 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 21:06:32,033 - INFO - Inserted batch 5: 41666 text chunks into ChromaDB.
+2025-03-16 21:08:16,152 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 21:08:16,238 - INFO - Inserted batch 6: 41666 text chunks into ChromaDB.
+2025-03-16 21:10:03,214 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 21:10:03,297 - INFO - Inserted batch 7: 41666 text chunks into ChromaDB.
+2025-03-16 21:11:56,941 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 21:11:57,065 - INFO - Inserted batch 8: 41666 text chunks into ChromaDB.
+2025-03-16 21:12:41,068 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 21:12:41,098 - INFO - Inserted batch 9: 14648 text chunks into ChromaDB.
+2025-03-16 21:12:41,098 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 21:12:41,098 - INFO - Script completed successfully.
+2025-04-03 18:17:52,239 - INFO - Script started: embed_store.py
+2025-04-03 18:17:52,239 - ERROR - Failed to load JSON file: expected str, bytes or os.PathLike object, not NoneType

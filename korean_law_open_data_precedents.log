@@ -1,0 +1,78 @@
+2025-03-16 22:28:16,831 - INFO - Script started: korean_law_open_data_precedents.py
+2025-03-16 22:28:20,271 - INFO - Successfully loaded Hugging Face dataset: korean_law_open_data_precedents
+2025-03-16 22:28:20,271 - INFO - Fields of interest: ['판례정보일련번호', '사건명', '사건번호', '선고일자', '선고', '법원명', '사건종류명', '판결유형', '판시사항', '판결요지', '참조조문', '참조판례', '전문']
+2025-03-16 22:28:20,271 - INFO - Processing batch 1/9 (0 - 10000)
+2025-03-16 22:28:22,148 - INFO - Extracted 10000 text chunks.
+2025-03-16 22:28:22,205 - INFO - Total chunks after splitting: 27924
+2025-03-16 22:29:32,446 - INFO - Successfully generated embeddings.
+2025-03-16 22:29:34,900 - INFO - HTTP Request: GET http://localhost:9000/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+2025-03-16 22:31:38,551 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:31:38,630 - INFO - Inserted batch 1: 27924 text chunks into ChromaDB.
+2025-03-16 22:31:38,630 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 22:31:38,663 - INFO - Processing batch 2/9 (10000 - 20000)
+2025-03-16 22:31:39,829 - INFO - Extracted 10000 text chunks.
+2025-03-16 22:31:39,864 - INFO - Total chunks after splitting: 30478
+2025-03-16 22:32:51,335 - INFO - Successfully generated embeddings.
+2025-03-16 22:35:39,804 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:35:39,890 - INFO - Inserted batch 1: 30478 text chunks into ChromaDB.
+2025-03-16 22:35:39,890 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 22:35:39,942 - INFO - Processing batch 3/9 (20000 - 30000)
+2025-03-16 22:35:41,184 - INFO - Extracted 10000 text chunks.
+2025-03-16 22:35:41,223 - INFO - Total chunks after splitting: 33041
+2025-03-16 22:36:55,767 - INFO - Successfully generated embeddings.
+2025-03-16 22:38:43,434 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:38:43,526 - INFO - Inserted batch 1: 33041 text chunks into ChromaDB.
+2025-03-16 22:38:43,526 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 22:38:43,564 - INFO - Processing batch 4/9 (30000 - 40000)
+2025-03-16 22:38:44,730 - INFO - Extracted 10000 text chunks.
+2025-03-16 22:38:44,779 - INFO - Total chunks after splitting: 39179
+2025-03-16 22:40:08,015 - INFO - Successfully generated embeddings.
+2025-03-16 22:42:04,242 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:42:04,353 - INFO - Inserted batch 1: 39179 text chunks into ChromaDB.
+2025-03-16 22:42:04,353 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 22:42:04,398 - INFO - Processing batch 5/9 (40000 - 50000)
+2025-03-16 22:42:05,538 - INFO - Extracted 10000 text chunks.
+2025-03-16 22:42:05,594 - INFO - Total chunks after splitting: 52486
+2025-03-16 22:43:57,845 - INFO - Successfully generated embeddings.
+2025-03-16 22:45:59,449 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:45:59,556 - INFO - Inserted batch 1: 41666 text chunks into ChromaDB.
+2025-03-16 22:46:30,947 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:46:30,969 - INFO - Inserted batch 2: 10820 text chunks into ChromaDB.
+2025-03-16 22:46:30,969 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 22:46:31,035 - INFO - Processing batch 6/9 (50000 - 60000)
+2025-03-16 22:46:32,200 - INFO - Extracted 10000 text chunks.
+2025-03-16 22:46:32,264 - INFO - Total chunks after splitting: 64316
+2025-03-16 22:48:49,078 - INFO - Successfully generated embeddings.
+2025-03-16 22:50:48,643 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:50:48,722 - INFO - Inserted batch 1: 41666 text chunks into ChromaDB.
+2025-03-16 22:52:03,296 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:52:03,338 - INFO - Inserted batch 2: 22650 text chunks into ChromaDB.
+2025-03-16 22:52:03,338 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 22:52:03,433 - INFO - Processing batch 7/9 (60000 - 70000)
+2025-03-16 22:52:04,688 - INFO - Extracted 10000 text chunks.
+2025-03-16 22:52:04,757 - INFO - Total chunks after splitting: 71091
+2025-03-16 22:54:38,762 - INFO - Successfully generated embeddings.
+2025-03-16 22:56:40,462 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:56:40,568 - INFO - Inserted batch 1: 41666 text chunks into ChromaDB.
+2025-03-16 22:58:03,693 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 22:58:03,762 - INFO - Inserted batch 2: 29425 text chunks into ChromaDB.
+2025-03-16 22:58:03,762 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 22:58:03,886 - INFO - Processing batch 8/9 (70000 - 80000)
+2025-03-16 22:58:05,150 - INFO - Extracted 10000 text chunks.
+2025-03-16 22:58:05,229 - INFO - Total chunks after splitting: 77645
+2025-03-16 23:00:52,473 - INFO - Successfully generated embeddings.
+2025-03-16 23:03:01,490 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 23:03:01,579 - INFO - Inserted batch 1: 41666 text chunks into ChromaDB.
+2025-03-16 23:04:51,153 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 23:04:51,219 - INFO - Inserted batch 2: 35979 text chunks into ChromaDB.
+2025-03-16 23:04:51,219 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 23:04:51,354 - INFO - Processing batch 9/9 (80000 - 85660)
+2025-03-16 23:04:52,713 - INFO - Extracted 5660 text chunks.
+2025-03-16 23:04:52,755 - INFO - Total chunks after splitting: 49157
+2025-03-16 23:06:40,007 - INFO - Successfully generated embeddings.
+2025-03-16 23:08:56,654 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 23:08:56,766 - INFO - Inserted batch 1: 41666 text chunks into ChromaDB.
+2025-03-16 23:09:41,698 - INFO - HTTP Request: POST http://localhost:9000/api/v2/tenants/default_tenant/databases/default_database/collections/1f566f70-ce10-414f-b879-1b862fffa218/add "HTTP/1.1 201 Created"
+2025-03-16 23:09:41,712 - INFO - Inserted batch 2: 7491 text chunks into ChromaDB.
+2025-03-16 23:09:41,712 - INFO - Successfully inserted all text chunks into ChromaDB.
+2025-03-16 23:09:41,794 - INFO - Script completed successfully.
